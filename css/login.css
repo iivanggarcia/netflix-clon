@@ -1,0 +1,225 @@
+body.login {
+    background: rgba(0,0,0,0.5) url("./../src/backgroundNetflix.jpg");
+    background-blend-mode: darken;
+    font-family: 'Roboto', sans-serif;
+}
+
+.one { 
+    grid-area: header;
+    height: 80px;
+    display:flex;
+    align-items: center;
+}
+.three { 
+    grid-area: main; 
+    height:  650px;
+    width: 450px;
+    margin-right:auto;
+    margin-left:auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.five { 
+    grid-area: down; 
+    height: 100px;
+}
+
+.grid-container {
+  position: relative;
+  display: grid;
+  grid-template-areas:
+    'header header header header header'
+    'main main main main main'
+    'down down down down down';
+    gap: 10px;
+}
+
+.one img{
+    height: 45px;
+    padding-left: 20px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item1{
+    padding-top: 60px;
+    padding-left: 68px;
+    font-weight: 500;
+    font-size: 35px;
+    align-self: flex-start;
+    color: white;
+  }
+
+  .item2{
+      width: 313px;
+  }
+
+  .inputsignin{
+      padding-top: 15px;
+  }
+
+  .form-control{
+      height: 50px;
+      width: 313px;
+  }
+
+  .btn-controler .btn{
+    height: 50px;
+    width: 313px;
+}
+
+.btn-controler{
+    padding-top: 45px;
+    margin-bottom: 10px;
+}
+
+.remembermediv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-check-label, .form-help a{
+    color: grey;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.form-help:hover a{
+    color: grey;
+    text-decoration: underline;
+}
+
+.item3{
+    width: 313px;
+    padding-top: 25px;
+    color: grey;
+}
+
+.item3 i{
+    font-size: 14px;
+}
+
+.newtonetflix{
+    padding-top: 12px;
+    display: flex;
+}
+
+.newtonetflix a{
+    color: white;
+    text-decoration: none;
+}
+
+.newtonetflix:hover a{
+    color: white;
+    text-decoration: underline;
+}
+
+.recapcha{
+    font-size: 13px;
+}
+
+.recapcha a{
+    text-decoration: none;
+}
+
+.recapcha:hover a{
+    text-decoration: underline;
+}
+
+.item3-1 a{
+    text-decoration: none;
+    color: grey;
+}
+
+.item3-1 a:hover{
+    text-decoration: none;
+    color: grey;
+}
+
+.small{
+    font-size: small;
+}
+
+.footeritem0 { 
+    grid-area: head;
+    padding-top: 25px;
+}
+
+.footeritem1 { 
+    grid-area: links1; 
+}
+
+.footeritem2 { 
+    grid-area: links2; 
+}
+
+.footeritem3 { 
+    grid-area: links3; 
+}
+
+.footeritem4 { 
+    grid-area: links4; 
+}
+
+.footeritem5 { 
+    grid-area: foot; 
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.footer-grid-container {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: relative;
+  display: grid;
+  grid-template-areas:
+    'head head head head'
+    'links1 links2 links3 links4'
+    'foot foot foot foot';
+    gap: 10px;
+    color: grey;
+    font-size: small;
+    justify-content: space-evenly;
+}
+
+.footeritem0{
+    display: flex;
+}
+
+.footeritem0 p, .footeritem0 a{
+    font-size: 18px;
+}
+
+.footer-grid-container a, .footeritem4 a{
+    color: grey;
+    text-decoration: none;
+}
+
+.footeritem0:hover a, .footeritem1-1:hover a, .footeritem1-2:hover a, .footeritem2-1:hover a, .footeritem2-2:hover a, .footeritem3:hover a, .footeritem4:hover a{
+    color: grey;
+    text-decoration: underline;
+}
+
+.footeritem5 .boton{
+    width: 130px;
+    height: 40px;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footeritem5 .dropdown-menu{
+    background-color: black;
+}
+
+.footeritem5 i{
+    font-size: 10px;
+    color: grey;
+    
+}
+
+.dropdown-toggle{
+    text-decoration: none;
+}
